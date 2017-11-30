@@ -1,4 +1,5 @@
 const Handlebars = require('Handlebars');
+const Color = require('color');
 
 const DEFAULT = '##COLOR_NOT_FOUND##';
 
@@ -29,7 +30,7 @@ module.exports = theme => {
 
     // Helper to render hex colours.
     Handlebars.registerHelper('hex', (...args) => {
-        return handler(args, color => color.hex());
+        return handler(args, color => color.hex().toLowerCase());
     });
 
     // Helper to render rgb colours.

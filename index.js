@@ -1,4 +1,3 @@
-const Color = require('color');
 const path = require('path');
 
 const renderer = require('./src/renderer');
