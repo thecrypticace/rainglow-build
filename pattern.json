@@ -1,5 +1,0 @@
-{
-    "render": {
-        "pattern/theme.tpl": "something/foo/bar/baz/theme-{{slug}}.tpl"
-    }
-}

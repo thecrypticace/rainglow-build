@@ -1,31 +1,28 @@
-const Handlebars = require('Handlebars');
+const Handlebars = require('handlebars');
 const Color = require('color');
-
-const DEFAULT = '##COLOR_NOT_FOUND##';
+const DEFAULT = '#000000';
 
 module.exports = theme => {
 
+    // Common functionality for helpers.
     const handler = (args, callback) => {
 
-        // Iterate colour keys.
-        for (const arg in args) {
+        // Set current result to default.
+        let result = DEFAULT;
 
-            // Fetch the argument value.
-            const value = args[arg];
-
+        // Iterate argument set in reverse.
+        args.reverse().map(arg => {
+            
             // Check if it exists.
-            if (theme.colors[value] !== undefined) {
+            if (theme.colors[arg] !== undefined) {
 
-                // Wrap it in the colors library.
-                const color = Color(theme.colors[value]);
-
-                // Execute the callback with the color and return it.
-                return callback(color);
+                // Set curent color if it exists.
+                result = theme.colors[arg];
             }
-        }
+        });
 
-        // Return a default value.
-        return DEFAULT;
+        // Wrap in the colors library and return executed callback.
+        return callback(Color(result));
     };
 
     // Helper to render hex colours.
