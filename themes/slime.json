@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Slime",
+        "slug": "slime",
+        "dark": true
+    },
+    "background":           "#292d30",
+    "foreground":           "#ffffff",
+    "first":                "#faffdb",
+    "second":               "#9fb3c2",
+    "third":                "#c7af3f",
+    "fourth":               "#9fb3c2",
+    "fifth":                "#c7af3f",
+    "comment":              "#4f5a63",
+    "string":               "#faffdb",
+    "number":               "#c7af3f",
+    "selection_foreground": "#4e653d",
+    "selection_background": "#c7af3f",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#384147",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#8ab8a2",
+    "bracket_content":      "#c7af3f",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#80919f"
+}

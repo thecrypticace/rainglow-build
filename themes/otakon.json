@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Otakon",
+        "slug": "otakon",
+        "dark": true
+    },
+    "background":           "#171417",
+    "foreground":           "#f9f3f9",
+    "first":                "#b1a6ca",
+    "second":               "#f6e6eb",
+    "third":                "#e484b2",
+    "fourth":               "#cacbdd",
+    "fifth":                "#f0b9d4",
+    "comment":              "#515166",
+    "string":               "#9eb2d9",
+    "number":               "#9eb2d9",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#b1a6ca",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#332d33",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#b1a6ca",
+    "bracket_content":      "#e484b2",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#686883"
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Halflife Contrast",
+        "slug": "halflife-contrast",
+        "dark": true
+    },
+    "background":           "#000000",
+    "foreground":           "#cccccc",
+    "first":                "#fc913a",
+    "second":               "#7d8991",
+    "third":                "#f9d423",
+    "fourth":               "#7d8991",
+    "fifth":                "#f85931",
+    "comment":              "#555555",
+    "string":               "#f9d423",
+    "number":               "#f9d423",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#f85931",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#151515",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#fc913a",
+    "bracket_content":      "#7d8991",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#808080"
+}

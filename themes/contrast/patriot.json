@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Patriot Contrast",
+        "slug": "patriot-contrast",
+        "dark": true
+    },
+    "background":           "#0d0e0f",
+    "foreground":           "#cad9e3",
+    "first":                "#de333c",
+    "second":               "#2e6fd9",
+    "third":                "#ffffff",
+    "fourth":               "#bbbcc4",
+    "fifth":                "#de333c",
+    "comment":              "#515e66",
+    "string":               "#3790de",
+    "number":               "#2e6fd9",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#de333c",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#191b1c",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#69adb5",
+    "bracket_content":      "#25808a",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#798b96"
+}

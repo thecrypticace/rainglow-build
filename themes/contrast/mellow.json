@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Mellow Contrast",
+        "slug": "mellow-contrast",
+        "dark": true
+    },
+    "background":           "#0b0a09",
+    "foreground":           "#f8f8f2",
+    "first":                "#f2bc79",
+    "second":               "#1f8181",
+    "third":                "#f28972",
+    "fourth":               "#f2bc79",
+    "fifth":                "#f55d79",
+    "comment":              "#7a7267",
+    "string":               "#f8bb39",
+    "number":               "#f8bb39",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#f55d79",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#13110f",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#f28972",
+    "bracket_content":      "#f55d79",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#a09688"
+}

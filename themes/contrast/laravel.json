@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Laravel Contrast",
+        "slug": "laravel-contrast",
+        "dark": true
+    },
+    "background":           "#000000",
+    "foreground":           "#ffffff",
+    "first":                "#ffc48c",
+    "second":               "#fc6b0a",
+    "third":                "#fc580c",
+    "fourth":               "#ffa927",
+    "fifth":                "#ffc48c",
+    "comment":              "#615953",
+    "string":               "#fdca49",
+    "number":               "#fc580c",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#cd724e",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#151515",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#ffc48c",
+    "bracket_content":      "#fc580c",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#8e8279"
+}

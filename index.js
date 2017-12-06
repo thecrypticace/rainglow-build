@@ -1,19 +1,26 @@
-const path = require('path');
+// Load libraries.
+const fs     = require('fs');
+const path   = require('path');
+const glob   = require('glob');
+const colors = require('colors');
+const exec   = require('child_process').execSync;
 
+// Load modules.
 const renderer = require('./src/renderer');
-const fs = require('fs');
-var execSync = require('child_process').execSync;
 
-const settings = require('./src/settings');
-const logger = require('./src/logger');
-const themes = require('./src/themes');
+// Path constants. Fixed due to execution within the docker image.
+const THEME_PATH   = path.resolve('themes');
+const OUTPUT_PATH  = path.resolve('output');
+const PATTERN_PATH = path.resolve('patterns');
 
-logger.logLocation('Theme directory', settings.themePath);
-logger.logLocation('Output directory', settings.outputPath);
-logger.logLocation('Pattern file', settings.patternFile);
-logger.logLocation('Pattern path', settings.patternPath);
+// Path to pattern file, defined by environmental variable.
+const PATTERN_FILE = process.env.PATTERN || 'example';
 
-const pattern = require(settings.patternFile);
+// Load the contents of the requested pattern.
+const pattern = require(PATTERN_PATH + '/' + PATTERN_FILE + '.json');
+
+// Load an array of theme files.
+const themes = glob.sync(THEME_PATH + '/**/*.json');
 
 // Iterate themes for building.
 themes.map(theme => {
@@ -21,30 +28,37 @@ themes.map(theme => {
     // Load theme JSON into object.
     theme = require(theme);
 
+    // Log current theme generation.
+    console.log(colors.green('Generating: ') + colors.yellow(theme.meta.name));
+
+    // Fetch a renderer for the theme.
     const render = renderer(theme);
 
-    // Indicate theme generation.
-    logger.themeGeneration(theme.name);
+    // Iterate patterns.
+    for (let source in pattern) {
 
-    // Output parsing information.
-    logger.listItem('Parsing colors.');
+        // Set a helper variable for a destination.
+        const destination = pattern[source];
 
+        // Read the pattern content from the filesystem.
+        source = fs.readFileSync(PATTERN_PATH + '/' + source).toString();
 
-    for (const key in pattern.render) {
-        const value = pattern.render[key];
+        // Compile a template for the pattern.
+        let template = render.compile(source);
 
+        // Execute the template to render the pattern.
+        const renderedPattern = template(theme);
 
-        const patternContent = fs.readFileSync(settings.patternPath + '/' + key).toString();
-        const patternTemplate = render.compile(patternContent);
-        const renderedPattern = patternTemplate(theme);
+        // Create a template for the destination path.
+        template = render.compile(destination);
 
-        const pathTemplate = render.compile(value);
-        const renderedPath = pathTemplate(theme);
-
-        logger.listItem('Rendering \'' + renderedPath + '\'.');
+        // Execute the template to render the path.
+        const renderedPath = template(theme);
 
         // Yep its nasty, but the node to do it properly is also nasty.
-        execSync('mkdir -p ' + path.dirname(settings.outputPath + '/' + renderedPath));
-        fs.writeFileSync(settings.outputPath + '/' + renderedPath, renderedPattern);
+        exec('mkdir -p ' + path.dirname(OUTPUT_PATH + '/' + renderedPath));
+
+        // Write the rendered pattern file to disk.
+        fs.writeFileSync(OUTPUT_PATH + '/' + renderedPath, renderedPattern);
     }
 });

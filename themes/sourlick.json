@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Sourlick",
+        "slug": "sourlick",
+        "dark": true
+    },
+    "background":           "#2e2c2b",
+    "foreground":           "#dedede",
+    "first":                "#edf252",
+    "second":               "#8ac27a",
+    "third":                "#bdf522",
+    "fourth":               "#d2eb31",
+    "fifth":                "#ffbb29",
+    "comment":              "#615953",
+    "string":               "#e4ff33",
+    "number":               "#fc580c",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#518f0d",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#3b3633",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#ffbb29",
+    "bracket_content":      "#70c910",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#92867d"
+}

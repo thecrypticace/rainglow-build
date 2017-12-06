@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Glowfish Contrast",
+        "slug": "glowfish-contrast",
+        "dark": true
+    },
+    "background":           "#090b07",
+    "foreground":           "#6ea240",
+    "first":                "#95cc5e",
+    "second":               "#db784d",
+    "third":                "#60a365",
+    "fourth":               "#d65940",
+    "fifth":                "#95cc5e",
+    "comment":              "#3c4e2d",
+    "string":               "#f8bb39",
+    "number":               "#95cc5e",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#db784d",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#12160d",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#db784d",
+    "bracket_content":      "#95cc5e",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#67854f"
+}

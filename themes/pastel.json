@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Pastel",
+        "slug": "pastel",
+        "dark": true
+    },
+    "background":           "#222222",
+    "foreground":           "#eeeeee",
+    "first":                "#9474a9",
+    "second":               "#04c4a5",
+    "third":                "#c56c6c",
+    "fourth":               "#c5906c",
+    "fifth":                "#e2e060",
+    "comment":              "#444444",
+    "string":               "#c56c6c",
+    "number":               "#c56c6c",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#008d62",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#333333",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#9d8262",
+    "bracket_content":      "#008d62",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#666666"
+}

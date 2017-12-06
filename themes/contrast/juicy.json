@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Juicy Contrast",
+        "slug": "juicy-contrast",
+        "dark": true
+    },
+    "background":           "#000000",
+    "foreground":           "#e3e2e0",
+    "first":                "#ff4e50",
+    "second":               "#3bc7b8",
+    "third":                "#c3cb4c",
+    "fourth":               "#edb92e",
+    "fifth":                "#f85931",
+    "comment":              "#777777",
+    "string":               "#3bc7b8",
+    "number":               "#ce1836",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#ff4e50",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#151515",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#c3cb4c",
+    "bracket_content":      "#ff4e50",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#9b9b9b"
+}

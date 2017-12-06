@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "name": "Legacy",
+        "slug": "legacy",
+        "dark": true
+    },
+    "background":           "#14191f",
+    "foreground":           "#aec2e0",
+    "first":                "#267fb5",
+    "second":               "#ffffff",
+    "third":                "#ffb20d",
+    "fourth":               "#748aa6",
+    "fifth":                "#267fb5",
+    "comment":              "#324357",
+    "string":               "#ff410d",
+    "number":               "#c7f026",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#ff410d",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#1b232c",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#ffb20d",
+    "bracket_content":      "#267fb5",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#4d6785",
+    "variables":            "#f1f6fb",
+    "ui_first":             "#267fb5"
+}

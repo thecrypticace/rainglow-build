@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Arstotzka",
+        "slug": "arstotzka",
+        "dark": true
+    },
+    "background":           "#211f1e",
+    "foreground":           "#edebe6",
+    "first":                "#a2a797",
+    "second":               "#516b6b",
+    "third":                "#70807b",
+    "fourth":               "#a2a797",
+    "fifth":                "#cf433e",
+    "comment":              "#3f3a36",
+    "string":               "#a5e3d0",
+    "number":               "#a5e3d0",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#516b6b",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#292725",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#a2a797",
+    "bracket_content":      "#516b6b",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#605852",
+    "variables":            "#edebe6"
+}

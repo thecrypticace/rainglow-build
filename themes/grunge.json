@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Grunge",
+        "slug": "grunge",
+        "dark": true
+    },
+    "background":           "#31332c",
+    "foreground":           "#f8f8f2",
+    "first":                "#d1f2a5",
+    "second":               "#f56991",
+    "third":                "#ffc48c",
+    "fourth":               "#91a374",
+    "fifth":                "#ffc48c",
+    "comment":              "#5c634f",
+    "string":               "#d1f2a5",
+    "number":               "#f56991",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#f56991",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#41453a",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#ffc48c",
+    "bracket_content":      "#f56991",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#7f886f"
+}

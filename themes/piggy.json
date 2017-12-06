@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Piggy",
+        "slug": "piggy",
+        "dark": true
+    },
+    "background":           "#1c1618",
+    "foreground":           "#edebe6",
+    "first":                "#f52e62",
+    "second":               "#fd6a5d",
+    "third":                "#ff5d80",
+    "fourth":               "#fd6a5d",
+    "fifth":                "#f52e62",
+    "comment":              "#3f3236",
+    "string":               "#ff453e",
+    "number":               "#ff453e",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#f52e62",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#34282c",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#f52e62",
+    "bracket_content":      "#fd6a5d",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#6a515a",
+    "variables":            "#edebe6"
+}

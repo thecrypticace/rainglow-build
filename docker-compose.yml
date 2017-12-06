@@ -4,3 +4,5 @@ services:
     build: .
     volumes:
       - ./output:/src/output
+    environment:
+      PATTERN: vscode

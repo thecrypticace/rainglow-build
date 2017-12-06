@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Turnip",
+        "slug": "turnip",
+        "dark": true
+    },
+    "background":           "#1a1b1d",
+    "foreground":           "#ede0ce",
+    "first":                "#92b55f",
+    "second":               "#487d76",
+    "third":                "#e8da5e",
+    "fourth":               "#92b55f",
+    "fifth":                "#487d76",
+    "comment":              "#7a7267",
+    "string":               "#e8da5e",
+    "number":               "#e8da5e",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#487d76",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#222222",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#487d76",
+    "bracket_content":      "#92b55f",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#aea395"
+}

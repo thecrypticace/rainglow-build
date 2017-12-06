@@ -1,5 +1,5 @@
-const Handlebars = require('handlebars');
-const Color = require('color');
+const handlebars = require('handlebars');
+const color = require('color');
 const DEFAULT = '#000000';
 
 module.exports = theme => {
@@ -14,27 +14,32 @@ module.exports = theme => {
         args.reverse().map(arg => {
             
             // Check if it exists.
-            if (theme.colors[arg] !== undefined) {
+            if (theme[arg] !== undefined) {
 
                 // Set curent color if it exists.
-                result = theme.colors[arg];
+                result = theme[arg];
             }
         });
 
         // Wrap in the colors library and return executed callback.
-        return callback(Color(result));
+        return callback(color(result));
     };
 
     // Helper to render hex colours.
-    Handlebars.registerHelper('hex', (...args) => {
+    handlebars.registerHelper('hex', (...args) => {
         return handler(args, color => color.hex().toLowerCase());
     });
 
     // Helper to render rgb colours.
-    Handlebars.registerHelper('rgb', (...args) => {
+    handlebars.registerHelper('rgb', (...args) => {
         return handler(args, color => color.rgb());
     });
 
+    // Helper to render hsl colours.
+    handlebars.registerHelper('hsl', (...args) => {
+        return handler(args, color => color.hsl());
+    });
+
     // Return the renderer.
-    return Handlebars;
+    return handlebars;
 };

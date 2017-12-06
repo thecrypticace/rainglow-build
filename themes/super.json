@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Super",
+        "slug": "super",
+        "dark": true
+    },
+    "background":           "#15191d",
+    "foreground":           "#ffffff",
+    "first":                "#5d67ad",
+    "second":               "#d60257",
+    "third":                "#e45635",
+    "fourth":               "#5d67ad",
+    "fifth":                "#e45635",
+    "comment":              "#465360",
+    "string":               "#f7a21b",
+    "number":               "#f7a21b",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#e45635",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#242b32",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#5d67ad",
+    "bracket_content":      "#e45635",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#64778a"
+}

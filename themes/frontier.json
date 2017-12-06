@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "name": "Frontier",
+        "slug": "frontier",
+        "dark": true
+    },
+    "background":           "#36312c",
+    "foreground":           "#f8f8f2",
+    "first":                "#2ebf7e",
+    "second":               "#f23a3a",
+    "third":                "#f8bb39",
+    "fourth":               "#fc803d",
+    "fifth":                "#2ebf7e",
+    "comment":              "#7a7267",
+    "string":               "#f8bb39",
+    "number":               "#2ebf7e",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#2ebf7e",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#45403b",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#2ebf7e",
+    "bracket_content":      "#f23a3a",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#a59a8a"
+}

@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Kiwi",
+        "slug": "kiwi",
+        "dark": true
+    },
+    "background":           "#161a19",
+    "foreground":           "#edebe6",
+    "first":                "#229986",
+    "second":               "#95c72a",
+    "third":                "#0b6d5c",
+    "fourth":               "#229986",
+    "fifth":                "#95c72a",
+    "comment":              "#354341",
+    "string":               "#a1e6c1",
+    "number":               "#a1e6c1",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#0b6d5c",
+    "selection_border":     "#222218",
+    "find_foreground":      "#000000",
+    "find_background":      "#ffe792",
+    "line_highlight":       "#282f2d",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3b3a32",
+    "scope_guide":          "#9d550f",
+    "brackets":             "#229986",
+    "bracket_content":      "#95c72a",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#5b7a75",
+    "variables":            "#edebe6"
+}
