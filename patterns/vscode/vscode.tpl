@@ -431,12 +431,65 @@
             }
         }
     ],
+    {{#if meta.dark}}
     "colors": {
         "editor.background": "{{{ hex 'vscode_background' 'background' }}}",
         "editorCursor.foreground": "{{{ hex 'vscode_caret' 'caret' }}}",
         "editor.foreground": "{{{ hex 'vscode_foreground' 'foreground' }}}",
         "editorWhitespace.foreground": "{{{ hex 'vscode_invisibles' 'invisibles' }}}",
         "editor.lineHighlightBackground": "{{{ hex 'vscode_line_highlight' 'line_highlight' }}}",
-        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}"
+        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}",
+        "sideBar.background":"{{{ hex_lighter 5 'background' }}}",
+        "sideBar.foreground":"{{{ hex 'foreground' }}}",
+        "sideBarSectionHeader.background": "{{{ hex_lighter 8 'background' }}}",
+        "sideBarSectionHeader.foreground": "{{{ hex 'foreground' }}}",
+        "activityBar.background":"{{{ hex_lighter 2 'background' }}}",
+        "activityBar.foreground":"{{{ hex 'foreground' }}}",
+        "activityBarBadge.background":"{{{ hex 'first' }}}",
+        "activityBarBadge.foreground":"#ffffff",
+        "badge.background":"{{{ hex 'first' }}}",
+        "badge.foreground":"#ffffff",
+        "statusBar.background":"{{{ hex 'first' }}}",
+        "editorGroup.background":"{{{ hex_lighter 3 'background' }}}",
+        "tab.inactiveBackground":"{{{ hex_lighter 4 'background' }}}",
+        "editorGroupHeader.tabsBackground":"{{{ hex_lighter 3 'background' }}}",
+        "titleBar.activeBackground":"{{{ hex_darker 4 'vscode_background' 'background' }}}",
+        "list.activeSelectionBackground":"{{{ hex 'second' }}}",
+        "list.hoverBackground":"{{{ hex_lighter 3 'background' }}}",
+        "list.activeSelectionForeground":"{{{ hex 'foreground' }}}",
+        "list.inactiveSelectionBackground":"{{{ hex_lighter 2 'background' }}}",
+        "editorLineNumber.foreground":"{{{ hex_lighter 20 'vscode_background' 'background' }}}",
+        "editorIndentGuide.background":"{{{ hex_lighter 10 'vscode_background' 'background' }}}",
+        "editorWhitespace.foreground":"{{{ hex_lighter 10 'vscode_background' 'background' }}}",
+        "editorRuler.foreground":"{{{ hex_lighter 10 'vscode_background' 'background' }}}"
     }
+    {{else}}
+    "colors": {
+        "editor.background": "{{{ hex 'vscode_background' 'background' }}}",
+        "editorCursor.foreground": "{{{ hex 'vscode_caret' 'caret' }}}",
+        "editor.foreground": "{{{ hex 'vscode_foreground' 'foreground' }}}",
+        "editorWhitespace.foreground": "{{{ hex 'vscode_invisibles' 'invisibles' }}}",
+        "editor.lineHighlightBackground": "{{{ hex 'vscode_line_highlight' 'line_highlight' }}}",
+        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}",
+        "sideBar.background":"{{{ hex_darker 5 'background' }}}",
+        "sideBar.foreground":"{{{ hex 'foreground' }}}",
+        "sideBarSectionHeader.background": "{{{ hex_darker 8 'background' }}}",
+        "sideBarSectionHeader.foreground": "{{{ hex 'foreground' }}}",
+        "activityBar.background":"{{{ hex_darker 2 'background' }}}",
+        "activityBar.foreground":"{{{ hex 'foreground' }}}",
+        "activityBarBadge.background":"{{{ hex 'first' }}}",
+        "activityBarBadge.foreground":"#ffffff",
+        "badge.background":"{{{ hex 'first' }}}",
+        "badge.foreground":"#ffffff",
+        "statusBar.background":"{{{ hex 'first' }}}",
+        "editorGroup.background":"{{{ hex_darker 3 'background' }}}",
+        "tab.inactiveBackground":"{{{ hex_darker 4 'background' }}}",
+        "editorGroupHeader.tabsBackground":"{{{ hex_lighter 3 'background' }}}",
+        "titleBar.activeBackground":"{{{ hex_darker 4 'vscode_background' 'background' }}}",
+        "list.activeSelectionBackground":"{{{ hex 'second' }}}",
+        "list.hoverBackground":"{{{ hex_darker 3 'background' }}}",
+        "list.activeSelectionForeground":"{{{ hex 'foreground' }}}",
+        "list.inactiveSelectionBackground":"{{{ hex_darker 2 'background' }}}"
+    }
+    {{/if}}
 }

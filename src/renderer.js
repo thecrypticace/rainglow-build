@@ -1,5 +1,5 @@
 const handlebars = require('handlebars');
-const color = require('color');
+const color = require('tinycolor2');
 const DEFAULT = '#000000';
 
 module.exports = theme => {
@@ -27,17 +27,27 @@ module.exports = theme => {
 
     // Helper to render hex colours.
     handlebars.registerHelper('hex', (...args) => {
-        return handler(args, color => color.hex().toLowerCase());
+        return handler(args, color => color.toHexString().toLowerCase());
+    });
+
+    // Helper to render darker hex colours.
+    handlebars.registerHelper('hex_darker', (percent, ...args) => {
+        return handler(args, color => color.darken(percent).toHexString().toLowerCase());
+    });
+
+    // Helper to render lighter hex colours.
+    handlebars.registerHelper('hex_lighter', (percent, ...args) => {
+        return handler(args, color => color.lighten(percent).toHexString().toLowerCase());
     });
 
     // Helper to render rgb colours.
     handlebars.registerHelper('rgb', (...args) => {
-        return handler(args, color => color.rgb());
+        return handler(args, color => color.toRgbString());
     });
 
     // Helper to render hsl colours.
     handlebars.registerHelper('hsl', (...args) => {
-        return handler(args, color => color.hsl());
+        return handler(args, color => color.toHslString());
     });
 
     // Return the renderer.
