@@ -2,7 +2,7 @@
     "meta": {
         "name": "Box UK",
         "slug": "boxuk",
-        "dark": true
+        "dark": false
     },
     "background":           "#ffffff",
     "foreground":           "#414f5c",

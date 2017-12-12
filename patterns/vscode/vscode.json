@@ -97,7 +97,7 @@
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "fontStyle": "italic underline",
+                "fontStyle": "",
                 "foreground": "{{{ hex 'vscode_second' 'second' }}}"
             }
         },
@@ -113,7 +113,7 @@
             "name": "Function argument",
             "scope": "variable.parameter",
             "settings": {
-                "fontStyle": "italic",
+                "fontStyle": "",
                 "foreground": "{{{ hex 'vscode_variables' 'variables' 'foreground' }}}"
             }
         },
@@ -156,7 +156,7 @@
                 "support.class"
             ],
             "settings": {
-                "fontStyle": "italic",
+                "fontStyle": "",
                 "foreground": "{{{ hex 'vscode_second' 'second' }}}"
             }
         },
@@ -198,14 +198,14 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#75715E"
+                "foreground": "{{{ hex 'comment' }}}"
             }
         },
         {
             "name": "diff.deleted",
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#00A8C6"
+                "foreground": "#e61f44"
             }
         },
         {
@@ -219,7 +219,7 @@
             "name": "diff.changed",
             "scope": "markup.changed",
             "settings": {
-                "foreground": "#E6DB74"
+                "foreground": "#f7b83d"
             }
         },
         {
@@ -315,7 +315,7 @@
             "scope": "variable.parameter.function.coffee",
             "settings": {
                 "foreground": "{{{ hex 'vscode_number' 'number' }}}",
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
@@ -375,7 +375,7 @@
             ],
             "settings": {
                 "foreground": "{{{ hex 'vscode_first' 'first' }}}",
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
@@ -431,14 +431,14 @@
             }
         }
     ],
-    {{#if meta.dark}}
     "colors": {
+        "foreground":"{{{ hex 'foreground' }}}",
         "editor.background": "{{{ hex 'vscode_background' 'background' }}}",
         "editorCursor.foreground": "{{{ hex 'vscode_caret' 'caret' }}}",
         "editor.foreground": "{{{ hex 'vscode_foreground' 'foreground' }}}",
         "editorWhitespace.foreground": "{{{ hex 'vscode_invisibles' 'invisibles' }}}",
         "editor.lineHighlightBackground": "{{{ hex 'vscode_line_highlight' 'line_highlight' }}}",
-        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}",
+        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}55",
         "sideBar.background":"{{{ hex_lighter 5 'background' }}}",
         "sideBar.foreground":"{{{ hex 'foreground' }}}",
         "sideBarSectionHeader.background": "{{{ hex_lighter 8 'background' }}}",
@@ -449,7 +449,8 @@
         "activityBarBadge.foreground":"#ffffff",
         "badge.background":"{{{ hex 'first' }}}",
         "badge.foreground":"#ffffff",
-        "statusBar.background":"{{{ hex 'first' }}}",
+        "statusBar.background":"{{{ hex 'vscode_statusbar_background' 'first' }}}",
+        "statusBar.foreground":"{{{ hex 'vscode_statusbar_foreground' '#ffffff' }}}",
         "editorGroup.background":"{{{ hex_lighter 3 'background' }}}",
         "tab.inactiveBackground":"{{{ hex_lighter 4 'background' }}}",
         "editorGroupHeader.tabsBackground":"{{{ hex_lighter 3 'background' }}}",
@@ -461,35 +462,75 @@
         "editorLineNumber.foreground":"{{{ hex_lighter 20 'vscode_background' 'background' }}}",
         "editorIndentGuide.background":"{{{ hex_lighter 10 'vscode_background' 'background' }}}",
         "editorWhitespace.foreground":"{{{ hex_lighter 10 'vscode_background' 'background' }}}",
-        "editorRuler.foreground":"{{{ hex_lighter 10 'vscode_background' 'background' }}}"
-    }
-    {{else}}
-    "colors": {
-        "editor.background": "{{{ hex 'vscode_background' 'background' }}}",
-        "editorCursor.foreground": "{{{ hex 'vscode_caret' 'caret' }}}",
-        "editor.foreground": "{{{ hex 'vscode_foreground' 'foreground' }}}",
-        "editorWhitespace.foreground": "{{{ hex 'vscode_invisibles' 'invisibles' }}}",
-        "editor.lineHighlightBackground": "{{{ hex 'vscode_line_highlight' 'line_highlight' }}}",
-        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}",
+        "editorRuler.foreground":"{{{ hex_lighter 10 'vscode_background' 'background' }}}",
+        "editorLink.activeForeground":"{{{ hex 'first' }}}",
+        "statusBar.noFolderBackground":"{{{ hex 'second' }}}",
+        "input.background":"{{{ hex_darker 5 'background' }}}",
+        "input.foreground":"{{{ hex 'foreground' }}}",
+        "input.border":"{{{ hex_lighter 15 'background' }}}",
+        "input.placeholderForeground":"{{{ hex_lighter 15 'background' }}}",
+        "inputOption.activeBorder":"{{{ hex 'second' }}}",
+        "input.activeBorder":"{{{ hex 'first' }}}",
+        "progressBar.background":"{{{ hex 'third' }}}",
+        "focusBorder":"{{{ hex 'first' }}}",
+        "button.background":"{{{ hex 'second' }}}",
+        "button.foreground":"#ffffff",
+        "panel.background":"{{{ hex_lighter 10 'background' }}}",
+        "editorWidget.background":"{{{ hex_lighter 10 'background' }}}",
+        "editorWidget.border":"{{{ hex 'second' }}}",
+        "panelTitle.activeBorder":"{{{ hex 'first' }}}",
+        "dropdown.background":"{{{ hex_darker 2 'background' }}}",
+        "dropdown.border":"{{{ hex_darker 2 'background' }}}",
+        "dropdown.foreground":"{{{ hex 'foreground' }}}",
+        "panelTitle.inactiveForeground":"{{{ hex_lighter 35 'background' }}}",
+        "panel.border":"{{{ hex_lighter 20 'background' }}}",
+        "scrollbarSlider.activeBackground":"{{{ hex 'first' }}}aa",
+        "scrollbarSlider.background":"{{{ hex_lighter 20 'background' }}}aa",
+        "scrollbarSlider.hoverBackground":"{{{ hex 'first' }}}55",
+        "tab.inactiveForeground":"{{{ hex_lighter 40 'background' }}}",
+        "editorGutter.background":"{{{ hex_darker 2 'vscode_background' 'background' }}}",
+        "editorGutter.modifiedBackground":"#f7b83d",
+        "editorGutter.addedBackground":"#a7da1e",
+        "editorGutter.deletedBackground":"#e61f44",
+        "gitDecoration.modifiedResourceForeground":"#f7b83d",
+        "gitDecoration.deletedResourceForeground":"#e61f44",
+        "gitDecoration.untrackedResourceForeground":"#a7da1e",
+        "gitDecoration.ignoredResourceForeground":"{{{ hex_lighter 30 'background' }}}",
+        "gitDecoration.conflictingResourceForeground":"#9d37fc",
+        "editorBracketMatch.background":"{{{ hex 'first' }}}44",
+        "editorBracketMatch.border":"{{{ hex 'second' }}}"
+        {{#unless meta.dark}},
+        "activityBar.background":"{{{ hex 'foreground' }}}",
+        "activityBar.foreground":"{{{ hex 'background' }}}",
         "sideBar.background":"{{{ hex_darker 5 'background' }}}",
         "sideBar.foreground":"{{{ hex 'foreground' }}}",
-        "sideBarSectionHeader.background": "{{{ hex_darker 8 'background' }}}",
-        "sideBarSectionHeader.foreground": "{{{ hex 'foreground' }}}",
-        "activityBar.background":"{{{ hex_darker 2 'background' }}}",
-        "activityBar.foreground":"{{{ hex 'foreground' }}}",
-        "activityBarBadge.background":"{{{ hex 'first' }}}",
-        "activityBarBadge.foreground":"#ffffff",
-        "badge.background":"{{{ hex 'first' }}}",
-        "badge.foreground":"#ffffff",
-        "statusBar.background":"{{{ hex 'first' }}}",
+        "gitDecoration.ignoredResourceForeground":"{{{ hex_darker 35 'background' }}}",
+        "editorLineNumber.foreground":"{{{ hex_darker 20 'vscode_background' 'background' }}}",
+        "editorIndentGuide.background":"{{{ hex_darker 10 'vscode_background' 'background' }}}",
+        "editorWhitespace.foreground":"{{{ hex_darker 10 'vscode_background' 'background' }}}",
+        "editorRuler.foreground":"{{{ hex_darker 10 'vscode_background' 'background' }}}",
         "editorGroup.background":"{{{ hex_darker 3 'background' }}}",
         "tab.inactiveBackground":"{{{ hex_darker 4 'background' }}}",
-        "editorGroupHeader.tabsBackground":"{{{ hex_lighter 3 'background' }}}",
-        "titleBar.activeBackground":"{{{ hex_darker 4 'vscode_background' 'background' }}}",
-        "list.activeSelectionBackground":"{{{ hex 'second' }}}",
-        "list.hoverBackground":"{{{ hex_darker 3 'background' }}}",
-        "list.activeSelectionForeground":"{{{ hex 'foreground' }}}",
-        "list.inactiveSelectionBackground":"{{{ hex_darker 2 'background' }}}"
+        "editorGroupHeader.tabsBackground":"{{{ hex_darker 3 'background' }}}",
+        "titleBar.activeBackground":"{{{ hex_lighter 50 'vscode_foreground' 'foreground' }}}",
+        "titleBar.activeForeground":"{{{ hex 'foreground' }}}",
+        "sideBarSectionHeader.background": "{{{ hex_darker 15 'background' }}}",
+        "sideBarSectionHeader.foreground": "{{{ hex 'foreground' }}}",
+        "widget.shadow":"{{{ hex_darker 20 'background' }}}55",
+        "tab.activeForeground":"{{{ hex 'foreground' }}}",
+        "tab.inactiveForeground":"{{{ hex_lighter 40 'foreground' }}}", 
+        "tab.border":"{{{ hex_darker 12 'background' }}}",
+        "editor.selectionBackground": "{{{ hex 'vscode_selection_background' 'selection_background' }}}33",
+        "panel.background":"{{{ hex_darker 4 'background' }}}",
+        "panelTitle.inactiveForeground":"{{{ hex_darker 25 'background' }}}",
+        "panelTitle.activeForeground":"{{{ hex_darker 55 'background' }}}",
+        "panel.border":"{{{ hex_darker 12 'background' }}}",
+        "list.activeSelectionForeground":"#ffffff",
+        "scrollbarSlider.background":"{{{ hex 'foreground' }}}35",
+        "input.background":"{{{ hex_darker 30 'background' }}}",
+        "input.foreground":"{{{ hex 'foreground' }}}",
+        "input.border":"{{{ hex_darker 40 'background' }}}",
+        "input.placeholderForeground":"{{{ hex_darker 10 'background' }}}"
+        {{/unless}}
     }
-    {{/if}}
 }

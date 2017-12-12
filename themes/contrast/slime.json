@@ -27,5 +27,7 @@
     "bracket_content":      "#c7af3f",
     "invalid_foreground":   "#f8f8f0",
     "invalid_background":   "#00a8c6",
-    "docblock":             "#80919f"
+    "docblock":             "#80919f",
+    
+        "vscode_statusbar_foreground": "#3b3a32"
 }

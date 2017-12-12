@@ -12,12 +12,21 @@ module.exports = theme => {
 
         // Iterate argument set in reverse.
         args.reverse().map(arg => {
+
+            // Cast to string.
+            arg = String(arg);
             
             // Check if it exists.
             if (theme[arg] !== undefined) {
 
                 // Set curent color if it exists.
                 result = theme[arg];
+
+            // Otherwise, if the key is actually a color.
+            } else if (arg.startsWith('#')) {
+
+                // Just use that as the value.
+                result = arg;
             }
         });
 
