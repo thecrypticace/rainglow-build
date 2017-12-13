@@ -1,5 +1,10 @@
 {
     "name": "{{ meta.slug }}",
+    {{#if meta.dark}}
+    "type": "dark",
+    {{else}}
+    "type": "light",
+    {{/if}}
     "tokenColors": [
         {
             "settings": {
@@ -477,7 +482,7 @@
         "button.foreground":"#ffffff",
         "panel.background":"{{{ hex_lighter 10 'background' }}}",
         "editorWidget.background":"{{{ hex_lighter 10 'background' }}}",
-        "editorWidget.border":"{{{ hex 'second' }}}",
+        "editorWidget.border":"{{{ hex_lighter 20 'background' }}}",
         "panelTitle.activeBorder":"{{{ hex 'first' }}}",
         "dropdown.background":"{{{ hex_darker 2 'background' }}}",
         "dropdown.border":"{{{ hex_darker 2 'background' }}}",
@@ -498,7 +503,14 @@
         "gitDecoration.ignoredResourceForeground":"{{{ hex_lighter 30 'background' }}}",
         "gitDecoration.conflictingResourceForeground":"#9d37fc",
         "editorBracketMatch.background":"{{{ hex 'first' }}}44",
-        "editorBracketMatch.border":"{{{ hex 'second' }}}"
+        "editorBracketMatch.border":"{{{ hex 'second' }}}",
+        "notification.background":"{{{ hex_lighter 5 'background' }}}",
+        "notification.foreground":"{{{ hex 'foreground' }}}",
+        "notification.buttonBackground":"{{{ hex 'first' }}}",
+        "notification.buttonForeground":"#ffffff",
+        "notification.infoBackground":"#9d37fc",
+        "notification.warningBackground":"#e61f44",
+        "notification.errorBackground":"#f7b83d"
         {{#unless meta.dark}},
         "activityBar.background":"{{{ hex 'foreground' }}}",
         "activityBar.foreground":"{{{ hex 'background' }}}",
@@ -530,7 +542,8 @@
         "input.background":"{{{ hex_darker 30 'background' }}}",
         "input.foreground":"{{{ hex 'foreground' }}}",
         "input.border":"{{{ hex_darker 40 'background' }}}",
-        "input.placeholderForeground":"{{{ hex_darker 10 'background' }}}"
+        "input.placeholderForeground":"{{{ hex_darker 10 'background' }}}",
+        "notification.background":"{{{ hex_darker 5 'background' }}}"
         {{/unless}}
     }
 }
