@@ -58,7 +58,7 @@
         <option name="FILESTATUS_ADDED" value="80cbc4"/>
         <option name="FILESTATUS_COPIED" value="659d9a"/>
         <option name="FILESTATUS_DELETED" value="f77669"/>
-        <option name="FILESTATUS_HIJACKED" value="ffcb6b"/>
+        <option name="FILESTATUS_HIJACKED" value="{{{ hexl 'fifth' }}}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f77669"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="546e7a"/>
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="{{{ hexl 'string' }}}"/>
@@ -144,7 +144,7 @@
         </option>
         <option name="Anonymous class name">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="Anotation attribute name">
@@ -269,7 +269,7 @@
         </option>
         <option name="CLASS_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="CLASS_REFERENCE">
@@ -307,7 +307,7 @@
         </option>
         <option name="COFFEESCRIPT.CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.COLON">
@@ -559,7 +559,7 @@
         </option>
         <option name="CSS.IDENT">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="CSS.IMPORTANT">
@@ -596,7 +596,7 @@
         </option>
         <option name="CSS.UNICODE.RANGE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="CSS.URL">
@@ -621,7 +621,7 @@
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
         <option name="Class">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="DEBUGGER_INLINED_VALUES">
@@ -632,7 +632,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -654,7 +654,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -1089,7 +1089,7 @@
         </option>
         <option name="GO_PACKAGE_EXPORTED_STRUCT">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_VARIABLE">
@@ -1109,7 +1109,7 @@
         </option>
         <option name="GO_PACKAGE_LOCAL_STRUCT">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE_LOCAL_VARIABLE">
@@ -1155,13 +1155,13 @@
         </option>
         <option name="GO_TYPE_SPECIFICATION">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT"/>
         <option name="HAML_TAG">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="HAML_TEXT" baseAttributes="TEXT"/>
@@ -1274,7 +1274,7 @@
         </option>
         <option name="HTML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -1322,7 +1322,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES"/>
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="INFO_ATTRIBUTES">
@@ -1397,7 +1397,7 @@
         </option>
         <option name="JS.INSTANCE_MEMBER_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="f1fdff"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="JSP_DIRECTIVE_NAME">
@@ -1577,7 +1577,7 @@
         </option>
         <option name="MARKDOWN.TEXT">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_AUTO_LINK">
@@ -1707,7 +1707,7 @@
         </option>
         <option name="MARKDOWN_LINK_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_LINK_DESTINATION">
@@ -1717,7 +1717,7 @@
         </option>
         <option name="MARKDOWN_LINK_LABEL">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_LINK_TEXT">
@@ -1755,7 +1755,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATED_TEXT">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION">
@@ -1765,7 +1765,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_EXPANDED_TEXT">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_SHORT_TEXT">
@@ -1775,7 +1775,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ANCHOR_ID">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.ATX_HEADER">
@@ -1810,12 +1810,12 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.DEFINITION_MARKER">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.DEFINITION_TERM">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.EMOJI_ID">
@@ -1825,12 +1825,12 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.FOOTNOTE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.FOOTNOTE_ID">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.FOOTNOTE_REF">
@@ -1884,7 +1884,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ITALIC">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -1934,7 +1934,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_IMAGE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_LINK">
@@ -1965,23 +1965,23 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
-                <option name="EFFECT_COLOR" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="3"/>
             </value>
         </option>
 
         <option name="MARKDOWN_NAVIGATOR.SUBSCRIPT">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
-                <option name="EFFECT_COLOR" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
 
         <option name="MARKDOWN_NAVIGATOR.TABLE">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CAPTION">
@@ -1996,24 +1996,24 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
 
         <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
 
         <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
 
@@ -2041,12 +2041,12 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_ROW_EVEN">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_ROW_ODD">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_SEPARATOR">
@@ -2076,13 +2076,13 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.TEXT">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.UNDERLINE">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
-                <option name="EFFECT_COLOR" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -2147,7 +2147,7 @@
         </option>
         <option name="OC.CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="OC.COMMA">
@@ -2259,7 +2259,7 @@
         </option>
         <option name="OC.NAMESPACE_LIKE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="OC.NUMBER">
@@ -2326,12 +2326,12 @@
         </option>
         <option name="OC.STRUCT_LIKE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="OC.TEMPLATE_TYPE">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="OC.TEMPLATE_VALUE">
@@ -2388,7 +2388,7 @@
         </option>
         <option name="PHP_CLASS">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="PHP_COMMA">
@@ -2590,7 +2590,7 @@
         </option>
         <option name="PY.CLASS_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -2738,7 +2738,7 @@
         </option>
         <option name="QL_ENTITY">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="QL_FUNCTION">
@@ -2849,7 +2849,7 @@
         </option>
         <option name="RHTML_OMIT_NEW_LINE_ID">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -3082,7 +3082,7 @@
         </option>
         <option name="ReSharper.ASP_NET_MVC_CONTROLLER">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -3094,7 +3094,7 @@
         </option>
         <option name="ReSharper.ASP_NET_MVC_VIEW_COMPONENT">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -3150,7 +3150,7 @@
         </option>
         <option name="ReSharper.STATIC_CLASS_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="ReSharper.STRUCT_IDENTIFIER">
@@ -3263,7 +3263,7 @@
         </option>
         <option name="Scala Class">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="Scala Class method call">
@@ -3348,7 +3348,7 @@
         </option>
         <option name="Scala Object">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
             </value>
         </option>
         <option name="Scala Object method call">
@@ -3422,7 +3422,7 @@
         </option>
         <option name="Scala XML attribute name">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -3606,8 +3606,8 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="ffcb6b"/>
-                <option name="ERROR_STRIPE_COLOR" value="ffcb6b"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'fifth' }}}"/>
+                <option name="ERROR_STRIPE_COLOR" value="{{{ hexl 'fifth' }}}"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -3632,7 +3632,7 @@
         </option>
         <option name="XML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value="ffcb6b"/>
+                <option name="FOREGROUND" value="{{{ hexl 'fifth' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -3654,7 +3654,7 @@
         </option>
         <option name="XML_TAG_DATA">
             <value>
-                <option name="FOREGROUND" value="c3cee3"/>
+                <option name="FOREGROUND" value="{{{ hexl 'foreground' }}}"/>
                 <option name="BACKGROUND" value="{{{ hexl 'background' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
