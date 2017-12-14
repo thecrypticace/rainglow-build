@@ -149,7 +149,7 @@
         </option>
         <option name="Anotation attribute name">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="BAD_CHARACTER">
@@ -190,7 +190,7 @@
         </option>
         <option name="BLADE_TEXT_BLOCK_BOUNDARY">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="BNF_KEYWORD">
@@ -259,12 +259,12 @@
         </option>
         <option name="Braces">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Brackets">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="CLASS_NAME_ATTRIBUTES">
@@ -297,12 +297,12 @@
         </option>
         <option name="COFFEESCRIPT.BRACE">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.BRACKET">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.CLASS_NAME">
@@ -312,17 +312,17 @@
         </option>
         <option name="COFFEESCRIPT.COLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.ESCAPE_SEQUENCE">
@@ -330,18 +330,18 @@
         </option>
         <option name="COFFEESCRIPT.EXISTENTIAL">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.FUNCTION">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.FUNCTION_BINDING">
@@ -407,7 +407,7 @@
         </option>
         <option name="COFFEESCRIPT.NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.OBJECT_KEY">
@@ -417,28 +417,28 @@
         </option>
         <option name="COFFEESCRIPT.OPERATIONS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.PARENTHESIS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.PROTOTYPE">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.RANGE">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.REGULAR_EXPRESSION_CONTENT">
@@ -459,12 +459,12 @@
         </option>
         <option name="COFFEESCRIPT.SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.SPLAT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.STRING_LITERAL">
@@ -528,7 +528,7 @@
         </option>
         <option name="CONSOLE_USER_INPUT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -581,7 +581,7 @@
         </option>
         <option name="CSS.PROPERTY_VALUE">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="CSS.PSEUDO">
@@ -644,12 +644,12 @@
         </option>
         <option name="DEFAULT_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -664,12 +664,12 @@
         </option>
         <option name="DEFAULT_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -697,7 +697,7 @@
         </option>
         <option name="DEFAULT_DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_ENTITY">
@@ -765,22 +765,22 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -790,7 +790,7 @@
         </option>
         <option name="DEFAULT_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="DEFAULT_STATIC_FIELD">
@@ -863,7 +863,7 @@
         <option name="ELIXIR_ALIAS" baseAttributes="DEFAULT_CLASS_NAME"/>
         <option name="ELIXIR_BIT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="ELIXIR_BRACES" baseAttributes="DEFAULT_BRACES"/>
@@ -922,7 +922,7 @@
         </option>
         <option name="Enum name">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -960,17 +960,17 @@
         </option>
         <option name="GO_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_BRACKET">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_BUILTIN_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_BUILTIN_FUNCTION">
@@ -990,13 +990,13 @@
         </option>
         <option name="GO_COLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="GO_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_COMMENT_KEYWORD">
@@ -1007,7 +1007,7 @@
         </option>
         <option name="GO_DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_EXPORTED_FUNCTION">
@@ -1017,7 +1017,7 @@
         </option>
         <option name="GO_FUNCTION_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_IDENTIFIER">
@@ -1044,7 +1044,7 @@
         </option>
         <option name="GO_LOCAL_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_LOCAL_FUNCTION">
@@ -1059,17 +1059,17 @@
         </option>
         <option name="GO_METHOD_RECEIVER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_OPERATOR">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE">
@@ -1079,7 +1079,7 @@
         </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_INTERFACE">
@@ -1099,7 +1099,7 @@
         </option>
         <option name="GO_PACKAGE_LOCAL_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE_LOCAL_INTERFACE">
@@ -1119,7 +1119,7 @@
         </option>
         <option name="GO_PARENTHESES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_SCOPE_VARIABLE">
@@ -1129,7 +1129,7 @@
         </option>
         <option name="GO_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="GO_STRING">
@@ -1179,12 +1179,12 @@
         </option>
         <option name="HOCON_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_DOUBLE_SLASH_COMMENT">
@@ -1207,7 +1207,7 @@
         </option>
         <option name="HOCON_INCLUDE_MODIFIER_PARENS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_INVALID_STRING_ESCAPE">
@@ -1218,7 +1218,7 @@
         </option>
         <option name="HOCON_KEY_VALUE_SEPARATOR">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_MULTILINE_STRING">
@@ -1234,17 +1234,17 @@
         </option>
         <option name="HOCON_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="HOCON_OBJECT_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_OPTIONAL_SUBSTITUTION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_QUOTED_STRING">
@@ -1254,12 +1254,12 @@
         </option>
         <option name="HOCON_SUBSTITUTION_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_SUBSTITUTION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HOCON_UNQUOTED_STRING">
@@ -1269,7 +1269,7 @@
         </option>
         <option name="HOCON_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HTML_ATTRIBUTE_NAME">
@@ -1290,7 +1290,7 @@
         </option>
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="HTML_TAG_NAME">
@@ -1429,7 +1429,7 @@
         </option>
         <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
@@ -1438,7 +1438,7 @@
         <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL"/>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD"/>
@@ -1495,7 +1495,7 @@
         </option>
         <option name="List/map to object conversion">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="LUA_DEFINED_CONSTANTS" baseAttributes="DEFAULT_CONSTANT"/>
@@ -1582,7 +1582,7 @@
         </option>
         <option name="MARKDOWN_AUTO_LINK">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -1712,7 +1712,7 @@
         </option>
         <option name="MARKDOWN_LINK_DESTINATION">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_LINK_LABEL">
@@ -1760,7 +1760,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_EXPANDED_TEXT">
@@ -1770,7 +1770,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ABBREVIATION_SHORT_TEXT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.ANCHOR_ID">
@@ -1780,7 +1780,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.ATX_HEADER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.BOLD">
@@ -1792,7 +1792,7 @@
 
         <option name="MARKDOWN_NAVIGATOR.BULLET_LIST">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.CODE">
@@ -1803,7 +1803,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.CODE_MARKER">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="BACKGROUND" value="32424a"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
@@ -1840,9 +1840,9 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="FONT_TYPE" value="1"/>
-                <option name="EFFECT_COLOR" value="f78c6c"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -1986,12 +1986,12 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CAPTION">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CAPTION_MARKER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN">
@@ -2120,7 +2120,7 @@
         </option>
         <option name="Number">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.BADCHARACTER">
@@ -2137,12 +2137,12 @@
         </option>
         <option name="OC.BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.CLASS_REFERENCE">
@@ -2152,7 +2152,7 @@
         </option>
         <option name="OC.COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.CONDITIONALLY_NOT_COMPILED">
@@ -2170,12 +2170,12 @@
         </option>
         <option name="OC.DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.ENUM_CONST">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.EXTERN_VARIABLE">
@@ -2185,7 +2185,7 @@
         </option>
         <option name="OC.FORMAT_TOKEN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.FUNCTION">
@@ -2249,7 +2249,7 @@
         </option>
         <option name="OC.MACRO_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.MESSAGE_ARGUMENT">
@@ -2264,27 +2264,27 @@
         </option>
         <option name="OC.NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.OVERLOADED_OPERATOR">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.PARENTHS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.PROPERTY">
@@ -2311,7 +2311,7 @@
         </option>
         <option name="OC.SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="OC.STRING">
@@ -2336,7 +2336,7 @@
         </option>
         <option name="OC.TEMPLATE_VALUE">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="OC.TYPEDEF">
@@ -2349,14 +2349,14 @@
         </option>
         <option name="Operation sign">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PERL_ARRAY" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="PERL_ARRAY_BUILTIN" baseAttributes="PERL_ARRAY"/>
         <option name="PERL_EMBED_MARKER">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PERL_GLOB_BUILTIN" baseAttributes="PERL_GLOB"/>
@@ -2378,12 +2378,12 @@
         </option>
         <option name="PHP_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_CLASS">
@@ -2393,7 +2393,7 @@
         </option>
         <option name="PHP_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_COMMENT">
@@ -2407,7 +2407,7 @@
         </option>
         <option name="PHP_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PHP_DOC_COMMENT_ID">
@@ -2483,22 +2483,22 @@
         </option>
         <option name="PHP_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PHP_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PHP_PARENTHESES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_PREDEFINED SYMBOL">
@@ -2513,7 +2513,7 @@
         </option>
         <option name="PHP_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PHP_STATIC_FIELD">
@@ -2560,7 +2560,7 @@
         </option>
         <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PROPERTIES.VALUE">
@@ -2575,12 +2575,12 @@
         </option>
         <option name="PY.BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
@@ -2596,7 +2596,7 @@
         </option>
         <option name="PY.COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.DECORATOR">
@@ -2618,7 +2618,7 @@
         </option>
         <option name="PY.DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.FUNC_DEFINITION">
@@ -2641,7 +2641,7 @@
         </option>
         <option name="PY.KEYWORD_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PY.LINE_COMMENT">
@@ -2652,22 +2652,22 @@
         </option>
         <option name="PY.NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PY.OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="PY.PARENTHS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="PY.PREDEFINED_DEFINITION">
@@ -2707,7 +2707,7 @@
         </option>
         <option name="Parentheses">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="QL_ATTRIBUTE">
@@ -2723,17 +2723,17 @@
         </option>
         <option name="QL_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="QL_DATETIME">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="QL_DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="QL_ENTITY">
@@ -2759,22 +2759,22 @@
         </option>
         <option name="QL_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="QL_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="QL_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="QL_PARENTHS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="QL_STRING">
@@ -2784,12 +2784,12 @@
         </option>
         <option name="REGEXP.BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="REGEXP.BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="REGEXP.CHAR_CLASS">
@@ -2802,12 +2802,12 @@
         </option>
         <option name="REGEXP.META">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="REGEXP.PARENTHS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="REGEXP.QUOTE_CHARACTER">
@@ -2839,12 +2839,12 @@
         </option>
         <option name="RHTML_EXPRESSION_END_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RHTML_EXPRESSION_START_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RHTML_OMIT_NEW_LINE_ID">
@@ -2855,42 +2855,42 @@
         </option>
         <option name="RHTML_SCRIPTING_BACKGROUND_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RHTML_SCRIPTLET_END_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RHTML_SCRIPTLET_START_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RHTML_SCRIPTLET_START_ID">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_BRACES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_COLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_COMMA">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_COMMENT">
@@ -2901,12 +2901,12 @@
         </option>
         <option name="RUBY_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="RUBY_CONSTANT_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="RUBY_CVAR">
@@ -2916,7 +2916,7 @@
         </option>
         <option name="RUBY_DOT">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_ESCAPE_SEQUENCE">
@@ -2924,7 +2924,7 @@
         </option>
         <option name="RUBY_EXPR_IN_STRING">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_GVAR">
@@ -2934,7 +2934,7 @@
         </option>
         <option name="RUBY_HASH_ASSOC">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_HEREDOC_CONTENT">
@@ -2978,7 +2978,7 @@
         </option>
         <option name="RUBY_LINE_CONTINUATION">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_LOCAL_VAR_ID">
@@ -2998,12 +2998,12 @@
         </option>
         <option name="RUBY_NUMBER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="RUBY_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_PARAMDEF_CALL">
@@ -3014,12 +3014,12 @@
         </option>
         <option name="RUBY_PARAMETER_ID">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="RUBY_PARENTHESES">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_REGEXP">
@@ -3029,7 +3029,7 @@
         </option>
         <option name="RUBY_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="RUBY_SPECIFIC_CALL">
@@ -3055,7 +3055,7 @@
         </option>
         <option name="ReSharper.ASP_NET_BLOCK_TAG">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="ReSharper.ASP_NET_COMMENT">
@@ -3103,7 +3103,7 @@
         </option>
         <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
@@ -3119,7 +3119,7 @@
         </option>
         <option name="ReSharper.ENUM_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
@@ -3129,7 +3129,7 @@
         </option>
         <option name="ReSharper.HINT">
             <value>
-                <option name="EFFECT_COLOR" value="89ddff"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
@@ -3155,7 +3155,7 @@
         </option>
         <option name="ReSharper.STRUCT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
@@ -3172,7 +3172,7 @@
         </option>
         <option name="SASS_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
@@ -3198,7 +3198,7 @@
         <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL"/>
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -3231,12 +3231,12 @@
         </option>
         <option name="Scala Anonymous Parameter">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="Scala Assign">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Bad character">
@@ -3253,12 +3253,12 @@
         </option>
         <option name="Scala Braces">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Brackets">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Class">
@@ -3273,17 +3273,17 @@
         </option>
         <option name="Scala Colon">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Comma">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Dot">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala For statement value">
@@ -3343,7 +3343,7 @@
         </option>
         <option name="Scala Number">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="Scala Object">
@@ -3359,12 +3359,12 @@
         </option>
         <option name="Scala Parameter">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="Scala Parentheses">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Pattern value">
@@ -3374,12 +3374,12 @@
         </option>
         <option name="Scala Predefined types">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala Semicolon">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala String">
@@ -3409,12 +3409,12 @@
         </option>
         <option name="Scala Type Alias">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="Scala Type parameter">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="Scala Valid escape in string">
@@ -3439,7 +3439,7 @@
         </option>
         <option name="Scala XML tag">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="Scala XML tag data">
@@ -3495,7 +3495,7 @@
         </option>
         <option name="Static field">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -3507,7 +3507,7 @@
         </option>
         <option name="Static property reference ID">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -3554,7 +3554,7 @@
         </option>
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="TYPO">
@@ -3570,7 +3570,7 @@
         </option>
         <option name="Type parameter">
             <value>
-                <option name="FOREGROUND" value="f78c6c"/>
+                <option name="FOREGROUND" value="{{{ hexl 'third' }}}"/>
             </value>
         </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -3601,7 +3601,7 @@
         </option>
         <option name="Valid string escape">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="WARNING_ATTRIBUTES">
@@ -3649,7 +3649,7 @@
         <option name="XML_PROLOGUE" baseAttributes="TEXT"/>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
             </value>
         </option>
         <option name="XML_TAG_DATA">
@@ -3674,13 +3674,13 @@
         </option>
         <option name="YAML_SCALAR_LIST">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="YAML_SCALAR_VALUE">
             <value>
-                <option name="FOREGROUND" value="89ddff"/>
+                <option name="FOREGROUND" value="{{{ hexl_darker 10 'foreground' }}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
