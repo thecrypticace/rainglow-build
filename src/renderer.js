@@ -59,6 +59,21 @@ module.exports = theme => {
         return handler(args, color => color.toHslString());
     });
 
+    // Helper to render hex colours without pound sign.
+    handlebars.registerHelper('hexl', (...args) => {
+        return handler(args, color => color.toHex().toLowerCase());
+    });
+
+        // Helper to render darker hex colours without pound.
+        handlebars.registerHelper('hexl_darker', (percent, ...args) => {
+            return handler(args, color => color.darken(percent).toHex().toLowerCase());
+        });
+    
+        // Helper to render lighter hex colours without pound.
+        handlebars.registerHelper('hexl_lighter', (percent, ...args) => {
+            return handler(args, color => color.lighten(percent).toHex().toLowerCase());
+        });
+
     // Return the renderer.
     return handlebars;
 };
