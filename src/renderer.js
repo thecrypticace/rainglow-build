@@ -64,15 +64,22 @@ module.exports = theme => {
         return handler(args, color => color.toHex().toLowerCase());
     });
 
-        // Helper to render darker hex colours without pound.
-        handlebars.registerHelper('hexl_darker', (percent, ...args) => {
-            return handler(args, color => color.darken(percent).toHex().toLowerCase());
-        });
+    // Helper to render darker hex colours without pound.
+    handlebars.registerHelper('hexl_darker', (percent, ...args) => {
+        return handler(args, color => color.darken(percent).toHex().toLowerCase());
+    });
     
-        // Helper to render lighter hex colours without pound.
-        handlebars.registerHelper('hexl_lighter', (percent, ...args) => {
-            return handler(args, color => color.lighten(percent).toHex().toLowerCase());
-        });
+    // Helper to render lighter hex colours without pound.
+    handlebars.registerHelper('hexl_lighter', (percent, ...args) => {
+        return handler(args, color => color.lighten(percent).toHex().toLowerCase());
+    });
+
+    // Render current copyright year.
+    handlebars.registerHelper('copyright', () => {
+
+        // Get the full year.
+        return (new Date).getFullYear();
+    });
 
     // Return the renderer.
     return handlebars;

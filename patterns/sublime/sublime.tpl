@@ -5,7 +5,7 @@
 {{{ meta.name }}}
 ======================================================================
 A Sublime Text / Textmate theme.
-Copyright (c) {{{ year }}} Dayle Rees <me@daylerees.com>.
+Copyright (c) {{{ copyright }}} Dayle Rees <me@daylerees.com>.
 Released under the MIT License <http://opensource.org/licenses/MIT>
 ======================================================================
 Find more themes at : https://github.com/rainglow
