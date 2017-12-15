@@ -24,7 +24,7 @@
   ~
   -->
 
-<scheme name="{{{ meta.name }}}" version="1" parent_scheme="Darcula">
+<scheme name="{{{ meta.name }}} (rainglow)" version="1" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0"/>
     <metaInfo>
         <property name="created">2017-12-13T12:00:00</property>
