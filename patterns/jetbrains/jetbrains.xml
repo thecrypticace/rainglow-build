@@ -48,14 +48,14 @@
         <option name="ADDED_LINES_COLOR" value="{{{ hexl 'string' }}}"/>
         <option name="ANNOTATIONS_COLOR" value="b0bec5"/>
         <option name="BORDER_LINES_COLOR" value=""/>
-        <option name="CARET_COLOR" value="ffcc00"/>
+        <option name="CARET_COLOR" value="{{{ hexl 'foreground' }}}"/>
         <option name="CARET_ROW_COLOR" value="181818"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="{{{ hexl 'background' }}}"/>
         <option name="DELETED_LINES_COLOR" value="f77669"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c"/>
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717"/>
         <option name="DOCUMENTATION_COLOR" value="{{{ hexl 'background' }}}"/>
-        <option name="FILESTATUS_ADDED" value="80cbc4"/>
+        <option name="FILESTATUS_ADDED" value="{{{ hexl 'first' }}}"/>
         <option name="FILESTATUS_COPIED" value="659d9a"/>
         <option name="FILESTATUS_DELETED" value="f77669"/>
         <option name="FILESTATUS_HIJACKED" value="{{{ hexl 'fifth' }}}"/>
@@ -64,15 +64,15 @@
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="{{{ hexl 'string' }}}"/>
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="546e7a"/>
         <option name="FILESTATUS_MERGED" value="65738e"/>
-        <option name="FILESTATUS_MODIFIED" value="80cbc4"/>
+        <option name="FILESTATUS_MODIFIED" value="{{{ hexl 'first' }}}"/>
         <option name="FILESTATUS_NOT_CHANGED" value="626669"/>
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4"/>
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4"/>
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{{{ hexl 'first' }}}"/>
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{{{ hexl 'first' }}}"/>
         <option name="FILESTATUS_OBSOLETE" value="7c7c00"/>
         <option name="FILESTATUS_SUPPRESSED" value="616161"/>
         <option name="FILESTATUS_SWITCHED" value="8978f"/>
         <option name="FILESTATUS_UNKNOWN" value="f77669"/>
-        <option name="FILESTATUS_modifiedOutside" value="80cbc4"/>
+        <option name="FILESTATUS_modifiedOutside" value="{{{ hexl 'first' }}}"/>
         <option name="GUTTER_BACKGROUND" value="{{ hexl_darker 2 'background' }}"/>
         <option name="INDENT_GUIDE" value="{{{ hexl_lighter 5 'background' }}}"/>
         <option name="INFORMATION_HINT" value="{{{ hexl 'background' }}}"/>
@@ -85,10 +85,10 @@
         <option name="NOTIFICATION_BACKGROUND" value="3d1a11"/>
         <option name="QUESTION_HINT" value="{{{ hexl 'background' }}}"/>
         <option name="RIGHT_MARGIN_COLOR" value="{{{ hexl_lighter 4 'background' }}}"/>
-        <option name="SELECTED_INDENT_GUIDE" value="676767"/>
-        <option name="SELECTED_TEARLINE_COLOR" value="616161"/>
-        <option name="SELECTION_BACKGROUND" value="353535"/>
-        <option name="SELECTION_FOREGROUND" value="fffbf7"/>
+        <option name="SELECTED_INDENT_GUIDE" value="{{{ hexl_lighter 15 'background' }}}"/>
+        <option name="SELECTED_TEARLINE_COLOR" value="{{{ hexl_lighter 15 'background' }}}"/>
+        <option name="SELECTION_BACKGROUND" value="{{{ hexl 'selection_background' }}}"/>
+        <option name="SELECTION_FOREGROUND" value="{{{ hexl 'selection_foreground' }}}"/>
         <option name="SOFT_WRAP_SIGN_COLOR" value="4f6269"/>
         <option name="TEARLINE_COLOR" value="{{{ hexl_lighter 4 'background' }}}"/>
         <option name="VCS_ANNOTATIONS_COLOR_1" value="{{{ hexl 'background' }}}"/>
@@ -96,8 +96,8 @@
         <option name="VCS_ANNOTATIONS_COLOR_3" value="616161"/>
         <option name="VCS_ANNOTATIONS_COLOR_4" value="5a4036"/>
         <option name="VCS_ANNOTATIONS_COLOR_5" value="ab7967"/>
-        <option name="WHITESPACES" value="616161"/>
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d9f5dd"/>
+        <option name="WHITESPACES" value="{{{ hexl_lighter 4 'background' }}}"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{{{ hexl_lighter 4 'background' }}}"/>
     </colors>
     <attributes>
         <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -211,8 +211,8 @@
         </option>
         <option name="BROWSEWORDATCARET">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
-                <option name="EFFECT_COLOR" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
+                <option name="EFFECT_COLOR" value="{{{ hexl 'first' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -544,7 +544,7 @@
         </option>
         <option name="CSS.COLOR">
             <value>
-                <option name="FOREGROUND" value="ffea7d"/>
+                <option name="FOREGROUND" value="{{{ hexl 'number' }}}"/>
             </value>
         </option>
         <option name="CSS.FUNCTION">
@@ -576,7 +576,7 @@
         </option>
         <option name="CSS.PROPERTY_NAME">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
             </value>
         </option>
         <option name="CSS.PROPERTY_VALUE">
@@ -601,12 +601,12 @@
         </option>
         <option name="CSS.URL">
             <value>
-                <option name="FOREGROUND" value="a5c261"/>
+                <option name="FOREGROUND" value="{{{ hexl 'string' }}}"/>
             </value>
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -1300,7 +1300,7 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
                 <option name="EFFECT_COLOR" value="808080"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
@@ -1939,7 +1939,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.REFERENCE_LINK">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
             </value>
         </option>
         <option name="MARKDOWN_NAVIGATOR.SETEXT_HEADER">
@@ -2095,7 +2095,7 @@
         </option>
         <option name="MARKDOWN_NAVIGATOR.WIKI_LINK">
             <value>
-                <option name="FOREGROUND" value="80cbc4"/>
+                <option name="FOREGROUND" value="{{{ hexl 'first' }}}"/>
             </value>
         </option>
         <option name="MESSAGE_ARGUMENT">
@@ -3643,7 +3643,7 @@
         </option>
         <option name="XML_NS_PREFIX">
             <value>
-                <option name="FOREGROUND" value="ffc251"/>
+                <option name="FOREGROUND" value="{{{ hexl 'second' }}}"/>
             </value>
         </option>
         <option name="XML_PROLOGUE" baseAttributes="TEXT"/>
