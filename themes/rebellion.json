@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Rebellion",
+        "slug": "rebellion",
+        "dark": true
+    },
+    "background":           "#23231A",
+    "foreground":           "#d6c7ab",
+    "first":                "#FE5F00",
+    "second":               "#988F2A",
+    "third":                "#8e7547",
+    "fourth":               "#FE5F00",
+    "fifth":                "#988F2A",
+    "comment":              "#51513d",
+    "string":               "#fdb825",
+    "number":               "#fd9825",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#FE5F00",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#3d3d2c",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3f3f2f",
+    "scope_guide":          "#3f3f2f",
+    "brackets":             "#d6c7ab",
+    "bracket_content":      "#d6c7ab",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#8c8c5c",
+    "variables":            "#edebe6"
+}

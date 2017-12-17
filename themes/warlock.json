@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Warlock",
+        "slug": "warlock",
+        "dark": true
+    },
+    "background":           "#4b4060",
+    "foreground":           "#ffffff",
+    "first":                "#F46036",
+    "second":               "#7eb1dd",
+    "third":                "#7c86d6",
+    "fourth":               "#b67ae8",
+    "fifth":                "#F46036",
+    "comment":              "#7c6d96",
+    "string":               "#f78362",
+    "number":               "#f7a261",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#725AC1",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#3f3551",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#675784",
+    "scope_guide":          "#675784",
+    "brackets":             "#ffffff",
+    "bracket_content":      "#ffffff",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#9d8bbc",
+    "variables":            "#ffffff"
+}

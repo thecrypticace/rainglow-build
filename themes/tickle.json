@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "name": "Tickle",
+        "slug": "tickle",
+        "dark": true
+    },
+    "background":           "#39393A",
+    "foreground":           "#c1c1c1",
+    "first":                "#85FFC7",
+    "second":               "#40a5a5",
+    "third":                "#FF8552",
+    "fourth":               "#85FFC7",
+    "fifth":                "#FF8552",
+    "comment":              "#606063",
+    "string":               "#86baba",
+    "number":               "#afd1d1",
+    "selection_foreground": "#85FFC7",
+    "selection_background": "#ffffff",
+    "selection_border":     "#85FFC7",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#202223",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#59595b",
+    "scope_guide":          "#59595b",
+    "brackets":             "#c1c1c1",
+    "bracket_content":      "#c1c1c1",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#7b7b84",
+    "variables":            "#ffffff",
+
+    "vscode_statusbar_foreground": "#35443d"
+}

@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Warlock Contrast",
+        "slug": "warlock-contrast",
+        "dark": true
+    },
+    "background":           "#171123",
+    "foreground":           "#ffffff",
+    "first":                "#F46036",
+    "second":               "#5B85AA",
+    "third":                "#5b64a3",
+    "fourth":               "#9559c6",
+    "fifth":                "#F46036",
+    "comment":              "#726c87",
+    "string":               "#f78362",
+    "number":               "#f7a261",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#725AC1",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#2b2042",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#352751",
+    "scope_guide":          "#352751",
+    "brackets":             "#ffffff",
+    "bracket_content":      "#ffffff",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#a49bc6",
+    "variables":            "#ffffff"
+}

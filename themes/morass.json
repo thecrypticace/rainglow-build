@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "name": "Morass",
+        "slug": "Morass",
+        "dark": true
+    },
+    "background":           "#1A1F1D",
+    "foreground":           "#E4E3E1",
+    "first":                "#FDEC5A",
+    "second":               "#68875A",
+    "third":                "#AFB54C",
+    "fourth":               "#AFD0C4",
+    "fifth":                "#677C71",
+    "comment":              "#414F48",
+    "string":               "#f8bb39",
+    "number":               "#f8bb39",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#FDEC5A",
+    "selection_border":     "#222218",
+    "find_foreground":      "#ffffff",
+    "find_background":      "#f55d79",
+    "line_highlight":       "#262d2a",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#404f49",
+    "scope_guide":          "#404f49",
+    "brackets":             "#E4E3E1",
+    "bracket_content":      "#E4E3E1",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#829E90",
+
+    "vscode_statusbar_foreground": "#1A1F1D"
+}

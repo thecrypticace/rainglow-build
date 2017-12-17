@@ -5,4 +5,4 @@ services:
     volumes:
       - ./output:/src/output
     environment:
-      PATTERN: jetbrains
+      PATTERN: vscode

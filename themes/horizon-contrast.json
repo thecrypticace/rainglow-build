@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Horizon Contrast",
+        "slug": "horizon-contrast",
+        "dark": true
+    },
+    "background":           "#11101C",
+    "foreground":           "#edebe6",
+    "first":                "#FD8A25",
+    "second":               "#B133DC",
+    "third":                "#FED230",
+    "fourth":               "#E5194B",
+    "fifth":                "#E524A9",
+    "comment":              "#36345A",
+    "string":               "#FD8A25",
+    "number":               "#E524A9",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#B133DC",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#181728",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#322f54",
+    "scope_guide":          "#322f54",
+    "brackets":             "#edebe6",
+    "bracket_content":      "#edebe6",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#734EA0",
+    "variables":            "#edebe6"
+}

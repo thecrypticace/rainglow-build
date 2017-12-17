@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Violaceous",
+        "slug": "violaceous",
+        "dark": true
+    },
+    "background":           "#242038",
+    "foreground":           "#bdb2f7",
+    "first":                "#725AC1",
+    "second":               "#8D86C9",
+    "third":                "#CAC4CE",
+    "fourth":               "#725AC1",
+    "fifth":                "#CAC4CE",
+    "comment":              "#594b87",
+    "string":               "#b58ad1",
+    "number":               "#944fc1",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#725AC1",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#302a4c",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#3d3660",
+    "scope_guide":          "#3d3660",
+    "brackets":             "#bdb2f7",
+    "bracket_content":      "#bdb2f7",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#7b68ba",
+    "variables":            "#ffffff"
+}

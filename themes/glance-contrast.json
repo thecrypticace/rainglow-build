@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Glance Contrast",
+        "slug": "glance-contrast",
+        "dark": true
+    },
+    "background":           "#111219",
+    "foreground":           "#ffffff",
+    "first":                "#EF8354",
+    "second":               "#6e81a0",
+    "third":                "#FFFFFF",
+    "fourth":               "#EF8354",
+    "fifth":                "#6e81a0",
+    "comment":              "#3e425e",
+    "string":               "#83ba7c",
+    "number":               "#7cb8ba",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#EF8354",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#202230",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#2f3247",
+    "scope_guide":          "#2f3247",
+    "brackets":             "#ffffff",
+    "bracket_content":      "#ffffff",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#575c82",
+    "variables":            "#ffffff"
+}

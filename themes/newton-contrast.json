@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Newton Contrast",
+        "slug": "newton-contrast",
+        "dark": true
+    },
+    "background":           "#121014",
+    "foreground":           "#EAEBFF",
+    "first":                "#FA824C",
+    "second":               "#FFBF69",
+    "third":                "#3C91E6",
+    "fourth":               "#FA824C",
+    "fifth":                "#FFBF69",
+    "comment":              "#3d3744",
+    "string":               "#9FD356",
+    "number":               "#9FD356",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#ff5d38",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#1d1a21",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#352f3d",
+    "scope_guide":          "#352f3d",
+    "brackets":             "#EAEBFF",
+    "bracket_content":      "#EAEBFF",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#5b5266",
+    "variables":            "#c5c6e0"
+}

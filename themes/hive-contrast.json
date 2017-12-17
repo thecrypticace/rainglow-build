@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "Hive Contrast",
+        "slug": "hive-contrast",
+        "dark": true
+    },
+    "background":           "#0f1016",
+    "foreground":           "#ffffff",
+    "first":                "#7cb8ba",
+    "second":               "#6e81a0",
+    "third":                "#FFFFFF",
+    "fourth":               "#7cb8ba",
+    "fifth":                "#6e81a0",
+    "comment":              "#41435b",
+    "string":               "#dbc583",
+    "number":               "#83ba7c",
+    "selection_foreground": "#ffffff",
+    "selection_background": "#7cb8ba",
+    "selection_border":     "#ffffff",
+    "find_foreground":      "#000000",
+    "find_background":      "#f4d142",
+    "line_highlight":       "#1a1b26",
+    "caret":                "#f8f8f0",
+    "invisibles":           "#292b3d",
+    "scope_guide":          "#292b3d",
+    "brackets":             "#ffffff",
+    "bracket_content":      "#ffffff",
+    "invalid_foreground":   "#f8f8f0",
+    "invalid_background":   "#00a8c6",
+    "docblock":             "#5d6082",
+    "variables":            "#ffffff"
+}
