@@ -1,0 +1,7 @@
+{
+    "atom/index.less": "atom/{{ meta.slug }}-rainglow-syntax/index.less",
+    "atom/package.json": "atom/{{ meta.slug }}-rainglow-syntax/package.json",
+    "atom/styles/base.less": "atom/{{ meta.slug }}-rainglow-syntax/styles/base.less",
+    "atom/styles/colors.less": "atom/{{ meta.slug }}-rainglow-syntax/styles/colors.less",
+    "atom/styles/syntax-variables.less": "atom/{{ meta.slug }}-rainglow-syntax/styles/syntax-variables.less"
+}

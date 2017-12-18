@@ -1,0 +1,126 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+	background-color: {{{ hex 'background' }}};
+	color: {{{ hex 'foreground' }}};
+
+	.invisible-character,
+	.indent-guide {
+		color: {{{ hex 'line_highlight' }}};
+	}
+
+	.gutter {
+		background-color: darken({{{ hex 'background' }}}, 4%);
+	}
+
+	.gutter .line-number {
+		color: lighten({{{ hex 'background' }}}, 25%);
+	}
+
+	.gutter .line-number.folded,
+	.gutter .line-number:after,
+	.fold-marker:after {
+		color: {{{ hex 'second' }}};
+	}
+
+	.cursor {
+		border-color: {{{ hex 'caret' }}};
+	}
+
+	.selection .region {
+		background-color: {{{ hex 'selection_background' }}};
+		color: {{{ hex 'selection_foreground' }}};
+	}
+
+	.line-number.cursor-line-no-selection {
+		background-color: {{{ hex 'line_highlight' }}};
+	}
+}
+
+.bracket-matcher {
+	background-color: {{{ hex 'second' }}};
+	opacity: 0.4;
+}
+
+.comment {
+	color: {{{ hex 'comment' }}};
+}
+
+.entity {
+	color: {{{ hex 'third' }}};
+}
+
+.entity.name.type.class {
+	color: {{{ hex 'foreground' }}};
+}
+
+.keyword {
+	color: {{{ hex 'fourth' }}};
+}
+
+.storage.type {
+	color: {{{ hex 'first' }}};
+}
+
+.storage.modifier {
+	color: {{{ hex 'second' }}};
+}
+
+.constant {
+	color: {{{ hex 'second' }}};
+
+	&.numeric,
+	&.boolean {
+		color: {{{ hex 'number' }}};
+	}
+}
+
+.variable {
+	color: {{{ hex 'foreground' }}};
+}
+
+.delimiter, .brace {
+	color: {{{ hex 'foreground' }}};
+}
+
+.delimiter.period {
+	color: {{{ hex 'second' }}};
+}
+
+.invalid.deprecated {
+	text-decoration: underline;
+	color: @red;
+}
+
+.invalid.illegal {
+	color: @red;
+}
+
+.string {
+	color: {{{ hex 'string' }}};
+
+	.constant.character.escape {
+		color: @red;
+	}
+
+	&.regexp {
+		color: {{{ hex 'number' }}};
+
+		.source.ruby.embedded,
+		.string.regexp.arbitrary-repitition {
+			color: @red;
+		}
+	}
+}
+
+.keyword.other.phpdoc {
+	color: {{{ hex 'docblock' }}};
+}
+
+.entity.name.tag {
+	color: {{{ hex 'first' }}};
+}
+
+.entity.other.attribute-name {
+	color: {{{ hex 'second' }}};
+}
