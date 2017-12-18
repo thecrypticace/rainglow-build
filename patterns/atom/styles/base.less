@@ -1,12 +1,12 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor {
 	background-color: {{{ hex 'background' }}};
 	color: {{{ hex 'foreground' }}};
 
 	.invisible-character,
 	.indent-guide {
-		color: {{{ hex 'line_highlight' }}};
+		color: lighten({{{ hex 'background' }}}, 10%);
 	}
 
 	.gutter {
@@ -35,92 +35,131 @@ atom-text-editor, :host {
 	.line-number.cursor-line-no-selection {
 		background-color: {{{ hex 'line_highlight' }}};
 	}
+
+	.wrap-guide {
+		background-color: lighten({{{ hex 'background' }}}, 10%); 
+	}
 }
 
 .bracket-matcher {
 	background-color: {{{ hex 'second' }}};
 	opacity: 0.4;
+	border:1px solid {{{ hex 'foreground' }}};
 }
 
-.comment {
+.syntax--comment {
 	color: {{{ hex 'comment' }}};
 }
 
-.entity {
+.syntax--entity {
 	color: {{{ hex 'third' }}};
 }
 
-.entity.name.type.class {
+.syntax--entity.syntax--name.syntax--type.syntax--class {
 	color: {{{ hex 'foreground' }}};
 }
 
-.keyword {
+.syntax--keyword {
 	color: {{{ hex 'fourth' }}};
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
 	color: {{{ hex 'first' }}};
 }
 
-.storage.modifier {
+.syntax--storage.syntax--modifier {
 	color: {{{ hex 'second' }}};
 }
 
-.constant {
+.syntax--constant {
 	color: {{{ hex 'second' }}};
 
-	&.numeric,
-	&.boolean {
+	&.syntax--numeric,
+	&.syntax--boolean {
 		color: {{{ hex 'number' }}};
 	}
 }
 
-.variable {
+.syntax--variable {
 	color: {{{ hex 'foreground' }}};
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
 	color: {{{ hex 'foreground' }}};
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
 	color: {{{ hex 'second' }}};
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
 	text-decoration: underline;
 	color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
 	color: @red;
 }
 
-.string {
+.syntax--string {
 	color: {{{ hex 'string' }}};
 
-	.constant.character.escape {
+	.syntax--constant.syntax--character.syntax--escape {
 		color: @red;
 	}
 
-	&.regexp {
+	&.syntax--regexp {
 		color: {{{ hex 'number' }}};
-
-		.source.ruby.embedded,
-		.string.regexp.arbitrary-repitition {
-			color: @red;
-		}
 	}
 }
 
-.keyword.other.phpdoc {
+.syntax--source.syntax--ruby.syntax--embedded,
+.syntax--string.syntax--regexp.syntax--arbitrary-repitition {
+	color: @red;
+}
+
+.syntax--keyword.syntax--other.syntax--phpdoc {
 	color: {{{ hex 'docblock' }}};
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
 	color: {{{ hex 'first' }}};
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
 	color: {{{ hex 'second' }}};
+}
+
+.syntax--new {
+	color: {{{ hex 'first' }}};
+}
+
+.syntax--support.syntax--function {
+	color: {{{ hex 'fifth' }}};
+}
+
+.syntax--function-call {
+	color: {{{ hex 'third' }}};
+}
+
+.syntax--punctuation {
+	color: {{{ hex 'foreground' }}};
+}
+
+.syntax--class {
+	color: {{{ hex 'second' }}};
+}
+
+.syntax--operator {
+	color: {{{ hex 'fourth' }}};
+}
+
+.syntax--comment .syntax--class,
+.syntax--comment .syntax--keyword,
+.syntax--comment .syntax--punctuation {
+	color: {{{ hex 'comment' }}};
+}
+
+.syntax--closure {
+	color: {{{ hex 'foreground' }}};
 }
